@@ -1,0 +1,8 @@
+# 初始化本地仓库（如果还没有）
+git init
+
+# 添加远程仓库（将URL替换为你的仓库地址）
+git remote add origin https://github.com/jhxring/bizhiTest.git
+
+# 查看远程仓库配置
+git remote -v
