@@ -1,2 +1,5 @@
 newTest
 我新建了个文件
+
+
+curl -X POST -H "X-API-Key: sk-1234" -H "Content-Type: application/json" -d '{"job_title":"销售总监","job_description":"销售经验十年，英语六级"}' "https://eai.bizzhi.tech/ai-learning/api/v1/interview/job/analyze"
