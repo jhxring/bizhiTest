@@ -6,3 +6,27 @@ git remote add origin https://github.com/jhxring/bizhiTest.git
 
 # 查看远程仓库配置
 git remote -v
+
+
+#####========================测试大模型=============================#####
+# 拉取远程仓库的最新代码并合并到当前分支
+git pull origin main --allow-unrelated-histories        
+# 如果有冲突，解决冲突后再继续
+# 添加所有更改的文件到暂存区
+git add .       
+# 提交更改并添加提交信息
+git commit -m "测试大模型"
+# 将本地更改推送到远程仓库的main分支
+git push origin main    
+# 进入指定路径
+cd 这个也是个测试
+# 拉取远程仓库的最新代码并合并到当前分支
+git pull origin main --allow-unrelated-histories        
+# 如果有冲突，解决冲突后再继续
+# 添加所有更改的文件到暂存区
+git add .       
+# 提交更改并添加提交信息                
+git commit -m "测试大模型"
+# 将本地更改推送到远程仓库的main分支
+git push origin main    
+#####========================测试大模型=============================#####   
